@@ -1,7 +1,7 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "webpack-to-rspack/eslint-webpack-plugin-to-eslint-rspack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engine": "jscodeshift",
   "private": false,
   "arguments": [],
@@ -11,9 +11,8 @@
       "version 5",
       "rspack",
       "migrations",
-      "cssextractwebpackplugin",
-      "community",
-      "included-plugin"
+      "eslint",
+      "community plugin"
     ],
     "git": "https://github.com/dfordp/webpack-to-rspack-eslint-webpack-plugin-to-eslint-rspack-plugin"
   }
